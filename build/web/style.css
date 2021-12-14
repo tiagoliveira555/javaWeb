@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+form > div {
+    margin: 1em 0;
+}
+
+form label {
+    display: block;
+}
+
+input + label {
+    display: inline;
+    margin: 0;
+}
